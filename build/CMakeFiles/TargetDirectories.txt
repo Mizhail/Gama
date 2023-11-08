@@ -1,0 +1,3 @@
+D:/С++/gama/Gama/build/CMakeFiles/gamebase.dir
+D:/С++/gama/Gama/build/CMakeFiles/ALL_BUILD.dir
+D:/С++/gama/Gama/build/CMakeFiles/ZERO_CHECK.dir

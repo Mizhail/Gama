@@ -1,0 +1,10 @@
+^D:\С++\GAMA\GAMA\BUILD\CMAKEFILES\C84053B2C30E0824476454BAD090CE27\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/С++/gama/Gama -BD:/С++/gama/Gama/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/С++/gama/Gama/build/gamebase.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

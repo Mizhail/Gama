@@ -1,0 +1,10 @@
+^D:\С++\GAMA\GAMA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/С++/gama/Gama -BD:/С++/gama/Gama/build --check-stamp-file D:/С++/gama/Gama/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
